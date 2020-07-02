@@ -2,10 +2,9 @@ package com.pwrscript.pwrmod.util;
 
 import com.pwrscript.pwrmod.PWRMod;
 import com.pwrscript.pwrmod.blocks.BlockItemBase;
-import com.pwrscript.pwrmod.blocks.LogoBlock;
+import com.pwrscript.pwrmod.blocks.PWRBlock;
 import com.pwrscript.pwrmod.items.ItemBase;
 import net.minecraft.block.Block;
-import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -22,11 +21,11 @@ public class RegistryHandler {
     }
 
     // PWRMod Items
-    public static final RegistryObject<Item> LOGO = ITEMS.register("logo", ItemBase::new);
+    public static final RegistryObject<Item> PWR_CARD = ITEMS.register("pwr_card", ItemBase::new);
 
     // PWRMod Blocks
-    public static final RegistryObject<Block> LOGO_BLOCK = BLOCKS.register("logo_block", LogoBlock::new);
+    public static final RegistryObject<Block> PWR_BLOCK = BLOCKS.register("pwr_block", PWRBlock::new);
 
     // PWRMod Blocks Items
-    public static final RegistryObject<Item> LOGO_BLOCK_ITEM = ITEMS.register("logo_block",() -> new BlockItemBase(LOGO_BLOCK.get()));
+    public static final RegistryObject<Item> PWR_BLOCK_ITEM = ITEMS.register("pwr_block",() -> new BlockItemBase(PWR_BLOCK.get()));
 }

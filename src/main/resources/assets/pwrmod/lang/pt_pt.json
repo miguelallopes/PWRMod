@@ -1,5 +1,5 @@
 {
-  "item.pwrmod.logo": "Logotipo PWR",
-  "block.pwrmod.logo_block":"Bloco PWR",
-  "itemGroup.PWRTab" : "PWRMod"
+  "item.pwrmod.pwr_card": "Cartão PWR",
+  "block.pwrmod.pwr_block":"Bloco PWR",
+  "itemGroup.PWRTab" : "Separador do PWRMod"
 }

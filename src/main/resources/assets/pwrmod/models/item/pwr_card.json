@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "pwrmod:items/logo"
+    "layer0": "pwrmod:items/pwr_card"
   }
 }

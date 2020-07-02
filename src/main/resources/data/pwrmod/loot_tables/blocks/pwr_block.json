@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "pwrmod:logo_block"
+              "name": "pwrmod:pwr_block"
             },
             {
               "type": "minecraft:item",
@@ -46,7 +46,7 @@
                   }
                 }
               ],
-              "name": "pwrmod:logo"
+              "name": "pwrmod:pwr_card"
             }
           ]
         }

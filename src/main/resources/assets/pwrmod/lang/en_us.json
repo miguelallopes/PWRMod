@@ -1,5 +1,5 @@
 {
-  "item.pwrmod.logo" : "PWR Logo",
-  "block.pwrmod.logo_block":"PWR Block",
-  "itemGroup.PWRTab" : "PWRMod"
+  "item.pwrmod.pwr_card" : "PWR Card",
+  "block.pwrmod.pwr_block":"PWR Block",
+  "itemGroup.PWRTab" : "PWRMod Tab"
 }
