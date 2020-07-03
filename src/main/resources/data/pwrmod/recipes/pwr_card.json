@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#B#",
+    "/N/",
+    "AEP"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:tnt"
+    },
+    "B": {
+      "item": "minecraft:beacon"
+    },
+    "/": {
+      "item": "minecraft:blaze_rod"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "A": {
+      "item": "minecraft:anvil"
+    },
+    "E": {
+      "item": "minecraft:enchanting_table"
+    },
+    "P": {
+      "item": "minecraft:brewing_stand"
+    }
+  },
+  "result": {
+    "item": "pwrmod:pwr_card",
+    "count": 2
+  }
+}
