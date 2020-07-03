@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "pwrmod:pwr_block"
+    },
+    "title": "PWRMod",
+    "description": "See how overpowered are you!!",
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "haspwrcard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "pwrmod:pwr_card"
+          }
+        ]
+      }
+    }
+  }
+}

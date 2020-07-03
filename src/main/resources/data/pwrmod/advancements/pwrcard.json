@@ -1,0 +1,40 @@
+{
+  "display": {
+    "title": {
+      "text": "Who is Going to be Overpowered Now?",
+      "bold": true
+    },
+    "description": {
+      "text": "Craft, discover or steal a PWRCard to be overpowered"
+    },
+    "icon": {
+      "item": "pwrmod:pwr_card"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "parent" : "pwrmod:root",
+  "criteria": {
+    "haspwrcard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "pwrmod:pwr_card"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "haspwrcard"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}
