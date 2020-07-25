@@ -1,9 +1,9 @@
 modLoader="javafml"
-loaderVersion="[31,)"
+loaderVersion="[32,)"
 issueTrackerURL="https://github.com/PWRScript/PWRMod/issues"
 [[mods]]
 modId="pwrmod"
-version="1.15.2-1.0.0"
+version="1.16.1-1.0.0"
 displayName="PWRMod"
 updateJSONURL="https://raw.githubusercontent.com/PWRScript/PWRMod/master/update.json"
 displayURL="https://github.com/PWRScript/PWRMod"
@@ -16,13 +16,13 @@ description='''PWRMod adds a small features to your modded minecraft client/serv
 [[dependencies.pwrmod]]
     modId="forge"
     mandatory=true
-    versionRange="[31,)"
+    versionRange="[32,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.pwrmod]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.15.2]"
+    versionRange="[1.16.1]"
     ordering="NONE"
     side="BOTH"

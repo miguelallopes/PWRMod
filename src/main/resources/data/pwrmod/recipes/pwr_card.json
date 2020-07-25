@@ -1,31 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#B#",
-    "/N/",
-    "AEP"
+    "#G#",
+    "PEP",
+    "#G#"
   ],
   "key": {
     "#": {
-      "item": "minecraft:tnt"
+      "item": "minecraft:tnt_minecart"
     },
-    "B": {
-      "item": "minecraft:beacon"
+    "G": {
+      "item": "minecraft:golden_apple"
     },
-    "/": {
-      "item": "minecraft:blaze_rod"
-    },
-    "N": {
-      "item": "minecraft:nether_star"
-    },
-    "A": {
-      "item": "minecraft:anvil"
+    "P": {
+      "item": "minecraft:paper"
     },
     "E": {
       "item": "minecraft:enchanting_table"
-    },
-    "P": {
-      "item": "minecraft:brewing_stand"
     }
   },
   "result": {
