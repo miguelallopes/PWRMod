@@ -4,6 +4,7 @@ import com.pwrscript.pwrmod.PWRMod;
 import com.pwrscript.pwrmod.blocks.BlockItemBase;
 import com.pwrscript.pwrmod.blocks.PWRBlock;
 import com.pwrscript.pwrmod.items.ItemBase;
+import com.pwrscript.pwrmod.items.PWRFood;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
@@ -22,6 +23,9 @@ public class RegistryHandler {
 
     // PWRMod Items
     public static final RegistryObject<Item> PWR_CARD = ITEMS.register("pwr_card", ItemBase::new);
+
+    // PWRMod Food
+    public static final RegistryObject<PWRFood> PWR_FOOD = ITEMS.register("pwr_food", PWRFood::new);
 
     // PWRMod Blocks
     public static final RegistryObject<Block> PWR_BLOCK = BLOCKS.register("pwr_block", PWRBlock::new);

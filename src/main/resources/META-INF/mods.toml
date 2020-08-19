@@ -1,15 +1,21 @@
 modLoader="javafml"
 loaderVersion="[32,)"
+
 issueTrackerURL="https://github.com/PWRScript/PWRMod/issues"
+
 [[mods]]
 modId="pwrmod"
 version="1.16.1-1.0.0"
 displayName="PWRMod"
+
 updateJSONURL="https://raw.githubusercontent.com/PWRScript/PWRMod/master/update.json"
 displayURL="https://github.com/PWRScript/PWRMod"
+
 logoFile="pwrmod_Logo.png"
+
 credits="PWRScript"
 authors="PWRScript"
+
 description='''PWRMod adds a small features to your modded minecraft client/server!
 '''
 
