@@ -37,9 +37,10 @@ public class PWRMod
 
     }
 
-        public static final ItemGroup TAB = new ItemGroup("PWRTab") {
-            @Override
-            public ItemStack createIcon() {
+
+    public static final ItemGroup TAB = new ItemGroup("PWRTab") {
+        @Override
+        public ItemStack createIcon() {
                 return new ItemStack(RegistryHandler.PWR_BLOCK.get());
             }
 
